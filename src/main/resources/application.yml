@@ -1,0 +1,16 @@
+logging:
+  level:
+    edu.stanford.slac.eedformgatewayjava: DEBUG
+    org.springdoc: debug
+
+edu:
+  stanford:
+    slac:
+      eed_java_backend_example:
+
+# swagger-ui custom path
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /api-docs
