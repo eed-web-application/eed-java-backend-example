@@ -11,6 +11,6 @@ concurrency:
   cancel-in-progress: true
 jobs:
     build:
-        uses: github.com/slaclab/eed-java-backend-example-deployment/.github/workflows/build-test-create.yml@main
+        uses: slaclab/eed-java-backend-example-deployment/.github/workflows/build-test-create.yml@main
         secrets: inherit
 
