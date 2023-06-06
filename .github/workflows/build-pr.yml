@@ -1,4 +1,4 @@
-name: BuildAndTest
+name: Build For Pull Request
 on: 
   pull_request:
     types:
@@ -11,6 +11,6 @@ concurrency:
   cancel-in-progress: true
 jobs:
     build:
-        uses: slaclab/eed-java-backend-example-deployment/.github/workflows/build-test-create.yml@main
+        uses: slaclab/eed-java-backend-example-deployment/.github/workflows/build-test.yml@main
         secrets: inherit
 
