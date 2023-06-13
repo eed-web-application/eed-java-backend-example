@@ -8,6 +8,12 @@ edu:
     slac:
       eed_java_backend_example:
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+
 # swagger-ui custom path
 springdoc:
   swagger-ui:
