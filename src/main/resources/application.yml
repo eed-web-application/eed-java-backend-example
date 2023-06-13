@@ -14,6 +14,10 @@ management:
       exposure:
         include: health,info,prometheus
 
+spring:
+  application:
+    name: 'eed-java-backend-example'
+
 # swagger-ui custom path
 springdoc:
   swagger-ui:
