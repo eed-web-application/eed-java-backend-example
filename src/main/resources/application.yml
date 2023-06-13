@@ -3,6 +3,11 @@ logging:
     edu.stanford.slac.eedformgatewayjava: DEBUG
     org.springdoc: debug
 
+server:
+  tomcat:
+    mbeanregistry:
+      enabled: true
+
 edu:
   stanford:
     slac:
